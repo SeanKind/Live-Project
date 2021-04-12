@@ -1,6 +1,14 @@
 <h3> Introduction</h3>
-<h5>For the last stretch of my time as a student at the tech academy, I participated in their live project segment. The live projects are a 2 week sprint working with various languages, both front end and back end. Each day there was a short stand-up meeting with the live project instructors and the other students invovled with the project. We would discuss objectives and difficulties for the day, and was quite helpful and interesting to see in action. The first live project I partook in was building a C# Code-First MVC web application for a local theatre company. I was assigned stories in both front end using HTML and CSS/Bootstrap, and back end using C# and my knowledge of SQL Server.  The information I learned through the live projects was invaluable, and an experience I will profit from going forward in my programming career. Below I will list the various stories I had the privilage of working on, the reason for their creation, what each section does, and my thought process while working. <h5>
+<h5>For the last stretch of my time as a student at the tech academy, I worked on a live project that simulated a real world development scenario. The live projects are 2 week sprints working with various technologies, both front end and back end. The following is a step by step example of my thought process through one of my more intricate contributions. <h5>
 
-<h3> Back-End Stories <h3>
-  <h5> As for my first Back-end story in C#, I was tasked to find dependencies of photos within an SQL table and display them in the browser. This was so the user would know if the photo they were looking at or editing was in use on the website. <h5>
-![test](Screenshots/FindDependencies() Method code.png)
+<h3> Background context </h3>
+  <h5> The project was an ASP.NET MVC website for a theatre company who wanted to update the look and functionality of their site. Users were able to view the productions and actors for each production, and admins were able to edit content on the site through an administrator login. My task was to create a method for checking if photos within the database were in use anywhere on the site, and display that information. Additionally, I was to add a way to update the photos with a final verification if the photos were used on the site. </h5>
+
+
+
+
+
+
+
+
+<img alt="test" src="/Screenshots/FindDependencies() Method code.png">
