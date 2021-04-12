@@ -10,16 +10,7 @@
 
 <h3> I began by creating a ViewModel </h3>
 
-<h5> I needed a way to store the information from my database query and to pass the information to the View. To do this, I created a ViewModel as shown below. <br/> <br/>
+<p> I needed a way to store the information from my database query and to pass the information to the View. To do this, I created a ViewModel as shown below. <br/> <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="ViewModel" src="Screenshots/photodependenciesviewmodel.png"/> <br/>
   
-</h5>
-
-
-
-
-
-
-
-
-<img alt="test" src="/Screenshots/FindDependencies() Method code.png">
+</p>
