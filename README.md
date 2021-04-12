@@ -3,3 +3,4 @@
 
 <h3> Back-End Stories <h3>
   <h5> As for my first Back-end story in C#, I was tasked to find dependencies of photos within an SQL table and display them in the browser. This was so the user would know if the photo they were looking at or editing was in use on the website. <h5>
+![test](Screenshots/FindDependencies() Method code.png)
