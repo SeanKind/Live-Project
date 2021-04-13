@@ -12,5 +12,13 @@
 
 <p> I needed a way to store the information from my database query and to pass the information to the View. To do this, I created a ViewModel as shown below. <br/> <br/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="ViewModel" src="Screenshots/photodependenciesviewmodel.png"/> <br/>
-  
+  Because there were possibly multiple "Sponsors" and "ProductionPhotos", I made each property a list to hold multiple objects.
+</p>
+
+<h3> Next, I created the FindDependencies method </h3>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="ViewModel" src="Screenshots/FindDependencies() Method code.png"/> <br/><br/>
+<p> I began by using my ViewModel as the return type within the method declaration to be used in the View. This allowed me to access the information I needed from the front-end of the framework. Moving on, I opened a connection to the database and instantiated a ViewModel object. After a quick check for a null value from the argument variable, I created an instance of the photo and sponsor objects and stored whatever was returned from the argument Id. 
+
+
 </p>
