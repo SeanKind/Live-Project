@@ -21,11 +21,24 @@
 <p>I began by using my ViewModel as the return type within the method declaration to be used in the View. This allowed me to access the information I needed from the front-end of the framework. Moving on, I opened a connection to the database and instantiated a ViewModel object. After a quick check for a null value from the argument variable, I created an instance of the photo and sponsor objects and stored what was returned from the argument Id. <br/><br/><img alt="ViewModel" src="Screenshots/FindDependencies() Method code.png"/>Next I made a quick logic check to make sure the sponsor entity isnt null and it matches the same sponsor on the site, and if everything worked out then I added it to the sponsor list inside of the ViewModel object. I essentially repeated the process with the productions photo object. Finally I created logic to see if the photo was actually in use on the site, and returned the ViewModel object to be used in the View.
 </p>
 
-<h3> Now for the logic to display the result of the method call <h3/>
+<h3> Now for the logic to display the result of the method call </h3>
   
  <p>I used the ViewModel object to access the information I needed and made simple foreach loops to show where the photo's were in use.<br/>
-  <img alt="View" src="Screenshots/display dependencies code.png"/>
+  <img alt="View" src="Screenshots/display dependencies code.png"/><br/>Which in turn showed one out of the following two.<br/>
+  <img alt="Results1" src="Screenshots/details no dependencies.png"/><br/><img alt="Results2" src="Screenshots/details has dependencies.png"/><br/>
+  
 <p/> 
+
+<h3> Finally, I added a Modal </h3>
+
+<p>If the user went to edit a photo that was in use on the site the modal would appear, otherwise it remained hidden.<br/>
+  <img alt="modalCode" src="Screenshots/modal code.png"/><br/><img alt="modalDependencies" src="Screenshots/modal window.png"/><br/><br/>
+</p>
+
+<h1> Takeaway </h3>
+
+<p>Besides learning how to write the code for this project I was able to practice debugging, overcoming roadblocks, resourcefulness to find solutions, and a lot of version control experience. I believe this project gave me a true taste of "a day in the life" of a developer, and I hope I continue to learn as much from real experience as I have from this one.<br/><br/>Hopefully this example has successfully provided a peek into my thinking and problem solving for projects moving forward!
+</p>
   
   
   
